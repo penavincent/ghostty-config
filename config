@@ -1,0 +1,82 @@
+# This is the configuration file for Ghostty.
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# Config syntax crash course
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+# font-family = Iosevka
+# window-padding-x = 2
+#
+# # Spacing around the equals sign does not matter.
+# # All of these are identical:
+# key=value
+# key= value
+# key =value
+# key = value
+#
+# # Any line beginning with a # is a comment. It's not possible to put
+# # a comment after a config option, since it would be interpreted as a
+# # part of the value. For example, this will have a value of "#123abc":
+# background = #123abc
+#
+# # Empty values are used to reset config keys to default.
+# key =
+#
+# # Some config options have unique syntaxes for their value,
+# # which is explained in the docs for that config option.
+# # Just for example:
+# resize-overlay-duration = 4s 200ms
+
+# Shell settings
+# command = /opt/homebrew/bin/fish --login --interactive
+
+# Font Settings
+
+font-family=JetBrainsMono Nerd Font
+
+# Window Padding
+
+window-padding-balance=true
+window-padding-x=8
+window-padding-y=4
+
+# Title bar settings
+macos-titlebar-proxy-icon=hidden
+title=" "
+
+# Quick terminal
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+
+# App Icon
+# macos-icon=retro
+# macos-icon=custom-style
+# macos-icon-frame=chrome
+# macos-icon-ghost-color=#eaf2f1
+# macos-icon-screen-color=#282a3a
+
+# Theme Settings
+theme= dark:Catppuccin Macchiato,light:Catppuccin Latte
+
+# Background
+background-opacity=0.95
+background-blur-radius=75
+
+# Alt Key
+macos-option-as-alt = left
+
+# Unbind Alt keys
+keybind = alt+left=unbind
+keybind = alt+right=unbind
+
+# Mouse Settings
+mouse-hide-while-typing=true
