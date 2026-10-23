@@ -51,7 +51,7 @@ window-padding-x = 8
 window-padding-y = 4
 
 # Title bar settings
-macos-titlebar-proxy-icon = hidden
+macos-titlebar-style = hidden
 title =" "
 
 gtk-titlebar = false
