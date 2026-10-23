@@ -42,41 +42,42 @@
 
 # Font Settings
 
-font-family=JetBrainsMono Nerd Font
+font-family =JetBrainsMono Nerd Font
 
 # Window Padding
 
-window-padding-balance=true
-window-padding-x=8
-window-padding-y=4
+window-padding-balance = true
+window-padding-x = 8
+window-padding-y = 4
 
 # Title bar settings
-macos-titlebar-proxy-icon=hidden
-title=" "
+macos-titlebar-proxy-icon = hidden
+title =" "
+window-decoration = false
 
 # Quick terminal
 keybind = global:cmd+grave_accent=toggle_quick_terminal
 
 # App Icon
-# macos-icon=retro
-# macos-icon=custom-style
-# macos-icon-frame=chrome
-# macos-icon-ghost-color=#eaf2f1
-# macos-icon-screen-color=#282a3a
+# macos-icon = retro
+# macos-icon = custom-style
+# macos-icon-frame = chrome
+# macos-icon-ghost-color = #eaf2f1
+# macos-icon-screen-color = #282a3a
 
 # Theme Settings
 theme= dark:Catppuccin Macchiato,light:Catppuccin Latte
 
 # Background
-background-opacity=0.95
-background-blur-radius=75
+background-opacity = 0.95
+background-blur-radius = 75
 
 # Alt Key
 macos-option-as-alt = left
 
 # Unbind Alt keys
-keybind = alt+left=unbind
-keybind = alt+right=unbind
+keybind = alt+left = unbind
+keybind = alt+right = unbind
 
 # Mouse Settings
-mouse-hide-while-typing=true
+mouse-hide-while-typing = true
