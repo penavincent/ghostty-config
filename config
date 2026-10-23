@@ -54,6 +54,8 @@ window-padding-y = 4
 macos-titlebar-proxy-icon = hidden
 title =" "
 
+gtk-titlebar = false
+
 # Quick terminal
 keybind = global:cmd+grave_accent=toggle_quick_terminal
 
