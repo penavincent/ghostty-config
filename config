@@ -75,9 +75,9 @@ background-blur-radius = 75
 # Alt Key
 macos-option-as-alt = left
 
-# Unbind Alt keys
-keybind = alt+left = unbind
-keybind = alt+right = unbind
+# Unbind Alt keys TODO: Might be needed when using tmux/zellij
+# keybind = alt + arrow_left = unbind
+# keybind = alt + arrow_right = unbind
 
 # Mouse Settings
 mouse-hide-while-typing = true
