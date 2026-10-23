@@ -53,7 +53,6 @@ window-padding-y = 4
 # Title bar settings
 macos-titlebar-proxy-icon = hidden
 title =" "
-window-decoration = false
 
 # Quick terminal
 keybind = global:cmd+grave_accent=toggle_quick_terminal
@@ -75,9 +74,7 @@ background-blur-radius = 75
 # Alt Key
 macos-option-as-alt = left
 
-# Unbind Alt keys TODO: Might be needed when using tmux/zellij
-# keybind = alt + arrow_left = unbind
-# keybind = alt + arrow_right = unbind
+# MacOS fix, map option > alt
 keybind = alt+arrow_left=text:\x1b[1;3D
 keybind = alt+arrow_right=text:\x1b[1;3C
 keybind = alt+arrow_up=text:\x1b[1;3A
